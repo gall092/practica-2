@@ -1,0 +1,155 @@
+<!<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	
+	<title>Frutas y verduras de gael gonzalez</title>
+</head>
+<body background="img/fondo1.png">
+	<center>
+		<font size="5" face="courier" color="#2D9C17">
+
+			<h1><b><big>Frutas y verduras de gael </big> </b> </h1>
+            <hr><br></br>
+
+            <table bgcolor="whith" border="8" bordercolor="black" width="0%">
+                 <tr>
+                 	<th>vocabulary</th>
+                 </tr>
+
+                 <tr>
+                 	<td>
+                 		<select name="selecciona" size="1" id="varFV" onchange="FV()">
+                 			<option value="0" selected>seleccionar</option>
+                            <option value="1">Sandia</option>
+                            <option value="2">Manzana</option>
+                            <option value="3">Pepino</option>
+                            <option value="4">Berenjena</option>
+                            <option value="5">Pera</option>
+                            <option value="6">Mango</option>
+                            <option value="7">Platano</option>
+                            <option value="8">kiwi</option>
+                            <option value="9">Uva</option>
+                            <option value="10">Durazno</option>
+                            <option value="11">Melon</option>
+                            <option value="12">Coco</option>
+                            <option value="13">Ceresa</option>
+                            <option value="14">Aguacate</option>
+                            <option value="15">piña</option>
+                            <option value="16">Gael gonzalez</option>
+                 		</select>
+                 	</td>
+                 </tr>          
+            </table>
+             
+             <br><a id="ref1"><img id="img" width="260" height="250" border="black"> </a>
+             <p style="color: #37302D" id="imprimir"></p>
+             <h4><p align="right">Gael G.</p> </h4>
+
+             <script type="text/javascript">
+             	function FV()
+             	{
+                   var ins = document.getElementById('varFV').value;
+
+                   if (parseInt(ins)==0) {
+                   	   document.getElementById("img").src="img/imagen2.jpg";
+                   	   document.getElementById("ref1").href="";
+                   	   document.getElementById("imprimir").innerHTML="Seleccion opcion";
+                   }
+
+                   if (parseInt(ins)==1) {
+                   	   document.getElementById("img").src="img/sandia.png";
+                   	   document.getElementById("ref1").href="sandia.html";
+                   	   document.getElementById("imprimir").innerHTML="watermelon";
+                   }
+
+                   if (parseInt(ins)==2) {
+                   	   document.getElementById("img").src="img/manzana.jpg";
+                   	   document.getElementById("ref1").href="manzana.html";
+                   	   document.getElementById("imprimir").innerHTML="apple";
+                   }
+                   if (parseInt(ins)==3) {
+                   	   document.getElementById("img").src="img/pepino.jpg";
+                   	   document.getElementById("ref1").href="Pepino.html";
+                   	   document.getElementById("imprimir").innerHTML="Pepino";
+                   }
+                   if (parseInt(ins)==4) {
+                   	   document.getElementById("img").src="img/berenjena.jpg";
+                   	   document.getElementById("ref1").href="Berenjena.html";
+                   	   document.getElementById("imprimir").innerHTML="Berenjena";
+                   }
+                   if (parseInt(ins)==5) {
+                   	   document.getElementById("img").src="img/pera.jpg";
+                   	   document.getElementById("ref1").href="Pera.html";
+                   	   document.getElementById("imprimir").innerHTML="pear";
+                   }
+                   if (parseInt(ins)==6) {
+                   	   document.getElementById("img").src="img/mango.jpg";
+                   	   document.getElementById("ref1").href="Mango.html";
+                   	   document.getElementById("imprimir").innerHTML="mango";
+                   }
+                   if (parseInt(ins)==7) {
+                   	   document.getElementById("img").src="img/platano.jpg";
+                   	   document.getElementById("ref1").href="Platano.html";
+                   	   document.getElementById("imprimir").innerHTML="kiwi";
+                   }
+                   if (parseInt(ins)==8) {
+                   	   document.getElementById("img").src="img/kiwi.jpg";
+                   	   document.getElementById("ref1").href="Kiwi.html";
+                   	   document.getElementById("imprimir").innerHTML="kiwi";
+                   }
+                   if (parseInt(ins)==9) {
+                       document.getElementById("img").src="img/uva.jpg";
+                       document.getElementById("ref1").href="Uva.html";
+                       document.getElementById("imprimir").innerHTML="uva";
+                   }
+                   if (parseInt(ins)==10) {
+                       document.getElementById("img").src="img/durazno.jpg";
+                       document.getElementById("ref1").href="Durazno.html";
+                       document.getElementById("imprimir").innerHTML="melon";
+                   }
+                   if (parseInt(ins)==11) {
+                       document.getElementById("img").src="img/melon.jpg";
+                       document.getElementById("ref1").href="Melon.html";
+                       document.getElementById("imprimir").innerHTML="coco";
+                   }
+                   if (parseInt(ins)==12) {
+                       document.getElementById("img").src="img/coco.jpg";
+                       document.getElementById("ref1").href="Coco.html";
+                       document.getElementById("imprimir").innerHTML="cherry";
+                   }
+                   if (parseInt(ins)==13) {
+                       document.getElementById("img").src="img/cereza.jpg";
+                       document.getElementById("ref1").href="frutadeldragon.html";
+                       document.getElementById("imprimir").innerHTML="dragon fruit";
+                   }
+                   if (parseInt(ins)==14) {
+                       document.getElementById("img").src="img/aguacate.jpg";
+                       document.getElementById("ref1").href="cereza.html";
+                       document.getElementById("imprimir").innerHTML="cherry";
+                    }
+                   if (parseInt(ins)==15) {
+                       document.getElementById("img").src="img/piña.jpg";
+                       document.getElementById("ref1").href="Piña.html";
+                       document.getElementById("imprimir").innerHTML="cherry";
+
+                   }
+                   if (parseInt(ins)==16) {
+                       document.getElementById("img").src="img/Gael.jpg";
+                       document.getElementById("ref1").href="gael.html";
+                       document.getElementById("imprimir").innerHTML="gael";
+                   }
+                                      
+
+
+
+
+             	}
+
+
+
+             </script>
+	</center>
+
+</body>
+</html>
